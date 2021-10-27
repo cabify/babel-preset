@@ -20,6 +20,18 @@ Babel preset for Cabify JS and TS projects
 - `babel-plugin-add-module-exports`
 - `babel-plugin-lodash`
 
+## Publish new version
+
+Just merge to `main` branch and run:
+
+- `git checkout main`
+- `git pull`
+- `yarn`
+- `yarn publish:(major|minor|patch)`
+- `git push && git push --tags`
+
+This will trigger a workflow on Github which will publish to npm eventually.
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
