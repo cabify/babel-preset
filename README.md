@@ -1,5 +1,7 @@
 ## @product/babel-preset
 
+![npm (scoped)](https://img.shields.io/npm/v/@cabify/babel-preset)
+
 Babel preset for Cabify JS and TS projects
 
 ### Included presets
