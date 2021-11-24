@@ -5,18 +5,18 @@ module.exports = declare((api, options) => {
     ? { legacy: true }
     : { decoratorsBeforeExport: true };
 
-  const classPropertiesConfig = { loose: !!options.legacyDecorators };
+  const loose = !!options.legacyDecorators;
 
   return {
     presets: [
-      '@babel/preset-env',
+      ['@babel/preset-env', { loose }],
       ['@babel/preset-react', { runtime: 'automatic' }],
       ['@babel/preset-typescript', { isTSX: true, allExtensions: true }],
     ],
     plugins: [
       ['@babel/plugin-transform-runtime'],
       ['@babel/plugin-proposal-decorators', decoratorsConfig],
-      ['@babel/plugin-proposal-class-properties', classPropertiesConfig],
+      ['@babel/plugin-proposal-class-properties', { loose }],
       '@babel/plugin-syntax-dynamic-import',
       'babel-plugin-add-module-exports',
       'babel-plugin-lodash',
