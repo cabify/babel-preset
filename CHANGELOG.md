@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## 0.0.2
+
+### Fixed
+
+- Removed warning when compiling with legacyDecorators
+
+### Added
+
+- Bump dependencies
+
+## 0.0.1
+
 ### Added
 
 - Initial version release including React, Typescript and preset-env.
