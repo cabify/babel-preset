@@ -20,15 +20,16 @@ Babel preset for Cabify JS and TS projects
 - `babel-plugin-add-module-exports`
 - `babel-plugin-lodash`
 
-## Publish new version
+### Publish a new version
 
-Just merge to `main` branch and run:
-
-- `git checkout main`
-- `git pull`
-- `yarn`
-- `yarn publish:(major|minor|patch)`
-- `git push && git push --tags`
+- Update [CHANGELOG](./CHANGELOG.md) with new features, breaking changes, etc
+- Check you're in `main` branch and everything is up-to-date.
+- Run `yarn publish:<major|minor|patch>` or `yarn publish:canary` for canary versions.
+- Run `git push && git push --tags`
+- Check all test actions triggered after previous push are ✔️.
+- Go to [create a new release](https://github.com/cabify/babel-preset/releases/new), select previously pushed tag and write a Title.
+- Check the action for publish the npm has finished with success.
+- [Check on npm package webpage](https://www.npmjs.com/package/@cabify/babel-preset), the version has been published successfully under `latest` tag.
 
 This will trigger a workflow on Github which will publish to npm eventually.
 
