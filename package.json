@@ -17,6 +17,7 @@
     "es6"
   ],
   "scripts": {
+    "build": "echo 'No build step to perform'",
     "test": "npm run lint:check && npm run format:check",
     "lint": "eslint . --fix",
     "lint:check": "eslint .",
