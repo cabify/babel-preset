@@ -7,17 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## 0.0.2
+### Added
+
+- Support for Typescript 4.9.
+
+## [0.0.2] - 2021-11-25
 
 ### Fixed
 
-- Removed warning when compiling with legacyDecorators
+- Removed warning when compiling with legacyDecorators.
 
 ### Added
 
-- Bump dependencies
+- Bump dependencies.
 
-## 0.0.1
+## [0.0.1] - 2021-10-27
 
 ### Added
 
