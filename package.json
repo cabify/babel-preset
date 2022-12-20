@@ -1,6 +1,6 @@
 {
   "name": "@cabify/babel-preset",
-  "version": "0.1.1-beta.0",
+  "version": "0.1.1",
   "description": "babel preset for Cabify JS projects",
   "main": "app.js",
   "license": "Apache-2.0",
