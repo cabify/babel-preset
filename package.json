@@ -1,6 +1,6 @@
 {
   "name": "@cabify/babel-preset",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "babel preset for Cabify JS projects",
   "main": "app.js",
   "license": "Apache-2.0",
@@ -53,7 +53,7 @@
     "core-js": ">= 3.0.0 < 4.0.0"
   },
   "devDependencies": {
-    "@cabify/eslint-config": "1.2.0",
+    "@cabify/eslint-config": "2.0.0",
     "eslint": "8.43.0",
     "prettier": "2.8.8"
   },
@@ -61,7 +61,7 @@
     "access": "public"
   },
   "volta": {
-    "node": "14.18.1",
-    "yarn": "1.22.17"
+    "node": "18.16.0",
+    "yarn": "1.22.19"
   }
 }
