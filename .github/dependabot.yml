@@ -10,3 +10,15 @@ updates:
     schedule:
       interval: 'weekly'
     versioning-strategy: increase
+    groups:
+      babel:
+        patterns:
+          - '@babel/core'
+          - '@babel/runtime'
+          - '@babel/runtime-corejs3'
+          - '@babel/preset-*'
+      babel-plugins:
+        patterns:
+          - '@babel/plugin-*'
+          - 'babel-plugin-*'
+          - 'react-refresh'
