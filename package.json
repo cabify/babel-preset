@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "@cabify/eslint-config": "2.0.1",
-    "eslint": "8.55.0",
+    "eslint": "8.56.0",
     "prettier": "3.1.1"
   },
   "publishConfig": {
