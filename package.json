@@ -47,7 +47,7 @@
     "@babel/runtime-corejs3": "^7.24.4",
     "babel-plugin-add-module-exports": "^1.0.4",
     "babel-plugin-lodash": "^3.3.4",
-    "react-refresh": "^0.14.0"
+    "react-refresh": "^0.14.2"
   },
   "peerDependencies": {
     "core-js": ">= 3.0.0 < 4.0.0"
