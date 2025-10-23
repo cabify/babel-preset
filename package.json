@@ -53,7 +53,7 @@
     "core-js": ">= 3.0.0 < 4.0.0"
   },
   "devDependencies": {
-    "@cabify/eslint-config": "2.1.4",
+    "@cabify/eslint-config": "3.0.1",
     "eslint": "8.57.1",
     "prettier": "3.6.2"
   },
