@@ -24,14 +24,9 @@ Babel preset for Cabify JS and TS projects
 
 - Update [CHANGELOG](./CHANGELOG.md) with new features, breaking changes, etc
 - Check you're in `main` branch and everything is up-to-date.
-- Run `yarn publish:<major|minor|patch>` or `yarn publish:canary` for canary versions.
-- Run `git push && git push --tags`
-- Check all test actions triggered after previous push are ✔️.
-- Go to [create a new release](https://github.com/cabify/babel-preset/releases/new), select previously pushed tag and write a Title.
-- Check the action for publish the npm has finished with success.
-- [Check on npm package webpage](https://www.npmjs.com/package/@cabify/babel-preset), the version has been published successfully under `latest` tag.
-
-This will trigger a workflow on Github which will publish to npm eventually.
+- Go to [create a new release](https://github.com/cabify/babel-preset/releases/new), create a new tag (e.g. `v0.2.0` or `v0.2.0-beta.0` for pre-releases) and write a Title.
+- The publish workflow will automatically set the package version from the tag and publish to npm with provenance.
+- [Check on npm package webpage](https://www.npmjs.com/package/@cabify/babel-preset) that the version has been published successfully.
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 

@@ -18,4 +18,5 @@ jobs:
           registry-url: https://registry.npmjs.org
       - run: yarn install
       - run: yarn build
+      - run: npm version "${GITHUB_REF_NAME#v}" --no-git-tag-version
       - run: npm publish --provenance --tag ${{ contains(github.ref_name,'beta') && 'beta' || 'latest' }}
